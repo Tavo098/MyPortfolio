@@ -1,10 +1,5 @@
 {% load static %}
 
-
-<!--
-<h1>Hello World</h1>
-<img src="{% static 'images/LinkedIn1.jpg' %}">
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,29 +14,31 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class = "card card-body" id="profile-wrapper">
+                <div class = "card card-body h-100 border-info" id="profile-wrapper">
                    <img id="profile-pic" src="{% static 'images/LinkedIn1.jpg' %}">
                     <hr>
                     <h4>Hi, I'm Gustavo!</h4>
-                    <p>Entry Leve Software Engineer, love building full stack web applications. GnGarcia is gay.</p>
+                    <p>I love building web applications, doing research, and collaborating</p>
                 </div>
             </div>
             <div class="col-md-9">
-                <div class = "card card-body">
+                <div class = "card card-body h-100 border-info ">
                     <h4>My Journey</h4>
                     <hr>
                     <p>I began my journey into full stack development with a strong curiosity for both frontend and backend technologies.
                         Starting with foundational skills in HTML, CSS, and JavaScript, I soon expanded into modern frameworks
-                        like React and Next.js to build responsive, dynamic interfaces. On the backend, I dove into Django and Django REST Framework, mastering how to
+                        like React and Django to build responsive, dynamic interfaces. On the backend, I dove into Django REST Framework, mastering how to
                         build APIs, manage databases with MySQL, and handle user authentication securely with JWT. </p>
-                    <p>Along the way, I integrated third-party services like Cloudinary for image uploads and used tools
-                        like Redis and Django Channels to enable real-time features. Through hands-on projects, including a
-                        voting app and a business opportunity tracker, I honed my skills in QA testing with pytest and worked
-                        collaboratively in team environments.</p>
-                    <p>Today, I continue to grow, driven by a passion for building complete, scalable web applications.</p>
+                    <p>Alongside full stack development, I’ve also been building my skills in data analysis. My journey began with tools like Excel and SQL for organizing and querying data, and I later expanded into using Python libraries such as Pandas for deeper analysis. I’ve worked on identifying trends, cleaning datasets, and creating insightful visualizations to support decision-making.</p>
+
+                    <p>Today, I continue to grow, driven by a passion for building scalable web applications, some of which leverage data analysis to tell meaningful stories and support informed decisions.</p>
+
+
+
 
                     <ul class="social-links">
-                        <li><img class="social" src="{% static 'images/logo1.png' %}" ></li>
+                        <li><a href="https://www.linkedin.com/in/gustavopajuelo-/"><img class="social" src="{% static 'images/logo1.png' %}"></a> </li>
+                        <li><a href="https://github.com/Tavo098"><img class="social" src="{% static 'images/github-logo.png' %}"></a> </li>
                     </ul>
 
                 </div>
@@ -50,32 +47,49 @@
  <br>
         <div class="row">
             <div class="col-md-6">
-                <div class = "card card-body">
+                <div class = "card card-body h-100" >
                     <h5>What I know</h5>
-                <hr>
-                <p>skilled in building web applications with React, Next.js, Django, and Django REST Framework. He integrates tools like Vite,
-                    Cloudinary, and JWT for efficient development, image handling, and secure authentication. With experience in MySQL database
-                    design, real-time features using Django Channels and Redis, and testing with pytest, he ensures scalable and reliable solutions.
-                </p>
+                    <hr>
+                    <p>Web Dev: Python, Django, Flask, React, HTML/CSS, JavaScript, PHP, SQL</p>
+                    <p>Data Analysis: Excel, BigQuery, Google Sheets, Tableau, PowerBI, R</p>
+
                 </div>
             </div>
             <div class="col-md-6">
-                <div class = "card card-body">
-                    <h5>How I learn</h5>
-                <hr>
-                <p>
-                    Self Learning.
-                </p>
+                <div class = "card card-body h-100">
+                    <h5>My Projects</h5>
+                    <hr>
+                    <p>
+                        Here are links to some of my projects! They can also be found on my GitHub page listed above.
+                    </p>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/logo1.png' %}" ></li>
+                    </ul>
                 </div>
             </div>
         </div>
  <br>
         <div class="row">
             <div class="col-md-6">
-                <div class = "card card-body"></div>
+                <div class = "card card-body h-100">
+
+                    <h5>My Hobbies</h5>
+                    <p>I love doing physical activities like hiking, swimming, and going to the gym 🏊🏻‍♂️</p>
+                    <p>I like to play the guitar </p>
+                    <p>I enjoy playing Chess games from time to time ♟️</p>
+
+                </div>
             </div>
             <div class="col-md-6">
-                <div class = "card card-body"></div>
+                <div class = "card card-body h-100">
+
+                    <h5>Fun Facts</h5>
+                    <p>I'm Peruvian! but I've never been to Macchu Picchu (happening soon...) </p>
+                    <p>I’ve spent countless hours playing Dota 2 and CS:GO—my two all-time favorite games 🖱️ </p>
+                    <p>I like most music genres, but I have a strong preference for old school and contemporary rock songs 🤘🏻</p>
+                    <p></p>
+
+                </div>
             </div>
         </div>
     </div>

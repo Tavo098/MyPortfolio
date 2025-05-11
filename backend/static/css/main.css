@@ -1,5 +1,5 @@
 body {
-    background-color:#F8F8F8!important;
+    background-color:black;
 }
 #profile-wrapper{
     text-align: center;
@@ -20,7 +20,7 @@ ul{
     list-style-type: none;
 }
 
-.social-links{
+.social-links ul, li{
     list-style-type: none;
     display: inline-block;
 }
